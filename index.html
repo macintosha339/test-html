@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Самая клевая компания</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper_head">
+            <h1 class="heading">Самая клевая компания</h1>
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="logo" width="273px" height="100px">
+            </div>
+            <div class="numbers_phones">
+                <a href="tel:+7(499) 777-77-77">+7(499) 777-77-77</a></br>
+                <a href="tel:+7(499) 777-77-77">+7(499) 777-77-77</a></div>
+        </div>
+    </header>
+    <section class="form_section">
+        <form class="form">
+            <h3>Форма с кнопкой</h3>
+            <p>Оставь телефон и получи </br>что-то офигенное</p>
+            <div class="wrap-tel">
+                <input type="tel" name="tel" class="tel-input" placeholder="Введите номер">
+            </div>
+            <div class="wrap-submit">
+                <button type="submit" class="submit-input" id="submit-input">Получить</button>
+            </div>
+        </form>
+    </section>
+    <section class="slider_section">
+        <div class="title-slider">Тут у нас слайдер</div>
+        <div class="all">
+            <input checked type="radio" name="respond" id="desktop">
+                <article id="slider">
+                        <input checked type="radio" name="slider" id="switch1">
+                        <input type="radio" name="slider" id="switch2">
+                        <input type="radio" name="slider" id="switch3">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="image">
+                                <article><img src="assets/images/1.jpg"></article>
+                                <article><img src="assets/images/2.jpg"></article>
+                                <article><img src="assets/images/3.jpg"></article>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="active">
+                        <label for="switch1"><div class="btn1"></div></label>
+                        <label for="switch2"><div class="btn2"></div></label>
+                        <label for="switch3"><div class="btn3"></div></label>
+                    </div>
+                </article>
+        </div>
+    </section>
+    <section class="text_block">
+        <h3 class="title_text">Просто текстовый блок</h3>
+        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+    </section>
+    <section class="calculator_block">
+        <h3 class="title-calc">Калькулятор</br>(Стоимость пользователь узнает по телефону)</h3>
+        <div class="list-window-wrapper">
+            <div class="item-win"><img src="assets/images/1okno.png" alt="Одностворчатое"> <p id="oneStvor">Одностворчатое</p></div>
+            <div class="item-win"><img src="assets/images/2okno.png" alt="Двухстворчатое"> <p>Двухстворчатое</p></div>
+            <div class="item-win"><img src="assets/images/3okno.png" alt="Трехстворчатое"> <p>Трехстворчатое</p></div>
+            <div class="item-win"><img src="assets/images/4okno.png" alt="Балконный блок"> <p>Балконный блок</p></div>
+            <div class="item-win"><img src="assets/images/5okno.png" alt="Остекление балкона"> <p>Остекление балкона</p></div>
+        </div>
+        <div class="calc-window-wrapper">
+            <div class="wrapper-sizeChoosing">
+                <div class="size-block">
+                    <p class="width-gray sizes">ширина</p>
+                    <p class="height-gray sizes">высота</p>
+                    <div class="img-window"></div>
+                    <div class="wrap-widthHeight">
+                        <div class="wrap-w">
+                            <p class="width-sm">ширина, см</p>
+                            <input type="number" value="120">
+                        </div>
+                        <p class="X-symbol">x</p>
+                        <div class="wrap-h">
+                            <p class="height-sm">высота, см</p>
+                            <input type="number" value="120">
+                        </div>
+                    </div>
+                </div>
+                <div class="choosing-block">
+                    <h3 class="heading-window">Одностворчатое окно KBE</h3>
+                    <div class="radio-box-wrap">
+                        <h3 class="radio-heading">1. Критерий выбора</h3>
+                        <input type="radio" id="choice1"
+                         name="choose">
+                        <label for="choice1">пункт выбора 1</label>
+                    
+                        <input type="radio" id="choice2"
+                         name="choose">
+                        <label for="choice2">пункт выбора 2</label>
+                    
+                        <input type="radio" id="choice3"
+                         name="choose" value="mail">
+                        <label for="choice3">пункт выбора 3</label>
+                      </div>
+                      <div class="select-wrap">
+                          <h3 class="select-heading">2. Выберите открывание створки</h3>
+                            <div class="select">
+                                <select name="select" size="1">
+                                    <option selected value="s1">Не открывается</option>
+                                    <option value="s2">Открывается</option>
+                                </select>
+                            </div>
+                      </div>
+                </div>
+            </div>
+            <div class="btn-block">
+                <input type="tel" name="tel" class="tel-window" placeholder="Введите номер">
+                <button type="submit" class="submit-window" id="submit-window">Рассчитать</button>
+                <div class="icon-user"></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer-text">просто</br>скромный футер</p>
+    </footer>
+    <script src="assets/js/submit.js"></script>
+</body>
+</html>
